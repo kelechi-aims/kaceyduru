@@ -4,7 +4,6 @@ const Projects = () => {
   return (
     <section className="portfolio" id="portfolio">
       <div className="main-text">
-        <h2>My Projects</h2>
         <h4>Some of My Distinguished Works</h4>
       </div>
 

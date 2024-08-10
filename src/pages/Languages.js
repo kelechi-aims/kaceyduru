@@ -12,6 +12,7 @@ function Languages() {
       <div className="Tech_header">
         <h1>Languages</h1>
       </div>
+
       <div className="Tcontainer">
         <div className="skill-box">
           <div className="skill-title">
@@ -21,14 +22,16 @@ function Languages() {
             <h3>C</h3>
           </div>
         </div>
+
         <div className="skill-box">
           <div className="skill-title">
             <div className="tech_img">
-              <img className="skill-icon" src={typescript} alt="Typescript Programming Laguage" />
-              </div>
-              <h3>C++</h3>
+              <img className="skill-icon" src={css} alt="Css" />
+            </div>
+            <h3>Css</h3>
           </div>
         </div>
+
         <div className="skill-box">
           <div className="skill-title">
             <div className="tech_img">
@@ -37,14 +40,7 @@ function Languages() {
               <h3>HTML</h3>
           </div>
         </div>
-        <div className="skill-box">
-          <div className="skill-title">
-            <div className="tech_img">
-              <img className="skill-icon" src={css} alt="Css" />
-              </div>
-              <h3>Css</h3>
-          </div>
-        </div>
+        
         <div className="skill-box">
           <div className="skill-title">
             <div className="tech_img">
@@ -57,11 +53,22 @@ function Languages() {
           <div className="skill-title">
             <div className="tech_img">
               <img className="skill-icon" src={python} alt="Python" />
-              </div>
-              <h3>Python</h3>
+            </div>
+            <h3>Python</h3>
           </div>
         </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={typescript} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>TypeScript</h3>
+          </div>
+        </div>
+        
       </div>
+      
     </div>
   );
 }

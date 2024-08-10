@@ -22,11 +22,11 @@ const Contact = () => {
           </a>  
         </div>
         <div className="contact-icons">
-          <a href="www.linkedin.com/in/kelechi-denise" target="_blank"><i className="bx bxl-linkedin"></i></a>
-          <a href="https://www.instagram.com/kaceyautos" target="_blank"><i className="bv bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kelechi-denise" target="_blank"><i className="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/kaceyautos" target="_blank"><i className="bx bxl-instagram"></i></a>
           <a href="https://x.com/DeniseKelechi" target="_blank"><i className="bx bxl-twitter"></i></a>
           <a href="https://github.com/kelechi-aims" target="_blank"><i className="bx bxl-github"></i></a>
-          <a href="+2348063234662"><i className="bx bxl-whatsapp"></i></a>
+          <a href="https://wa.me/2348063234662" target="_blank"><i className="bx bxl-whatsapp"></i></a>
         </div>
       </div>
       

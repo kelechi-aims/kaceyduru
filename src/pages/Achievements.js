@@ -4,7 +4,6 @@ function Achievements() {
     return (
       <section className="achievement" id="achievement">
         <div className="main-text">
-          <h2>My Achievements</h2>
           <h4>Some of My Major Achievements</h4>
         </div>
         <div className="portfolio-content">
@@ -39,7 +38,7 @@ function Achievements() {
               <h3>Implemented a digital filing system, reducing paper waste and improving document retrieval time by 30%. Received commendations for professionalism and efficiency in handling customer inquiries and resolving issues.</h3>
             </div> 
 
-            <div>      
+            <div className="row">      
               <img src="img/profile.jpg" alt="assistant" />
                 <div className="main-row">
                   <div className="row-text">
@@ -49,7 +48,7 @@ function Achievements() {
                 <h3>Implemented innovative teaching strategies, resulting in a 25% improvement in student test scores on standardized assessments. Recognized as “Teacher of the Month” for exceptional dedication and commitment to student success.</h3>
               </div> 
 
-            <div>  
+            <div className="row">  
               <img src="img/profile.jpg" alt="assistant" />
                 <div className="main-row">
                   <div className="row-text">

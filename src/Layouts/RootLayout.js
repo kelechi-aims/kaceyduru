@@ -5,7 +5,7 @@ const RootLayout = () => {
   return (
     <>
     <header>
-      <h2 className='logo'>E-Portfo<span>lio</span></h2>
+      <h2 className='logo'>Ka<span>cey</span></h2>
       <ul className='navbar'>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="about">About Me</NavLink></li>

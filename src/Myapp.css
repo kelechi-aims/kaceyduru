@@ -372,13 +372,17 @@ inner {
 }
 
 .main-text h4 {
-    font-size: 24px;
+    font-size: 39px;
     font-weight: 600;
     color: var(--main-color);
 }
 
 .box {
     padding: 45px;
+    display: grid;
+    grid-template-columns: 400px auto;
+    justify-content: space-between;
+    gap: 30px;
     margin: 3px 30px 3px 30px;
     background: #022024;
     border-top: 5px solid transparent;
@@ -405,9 +409,46 @@ inner {
     border-top: 5px solid var(--main-color);
 }
 
+.skill-box {
+    padding: 45px;
+    margin: 3px 30px 3px 30px;
+    background: #022024;
+    border-top: 5px solid transparent;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+
+.skill-box:hover {
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid var(--main-color);
+}
+
+.skill-box h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0;
+    transition: all .40s ease;
+}
+
+.skill-grid {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 350px auto;
+    justify-content: start;
+    gap: 30px;
+}
+
+.skill-grid li {
+    color: var(--second-color);
+    font-size: var(var(--p-font));
+    line-height: 30px;
+}
+
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: auto auto;
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
@@ -439,13 +480,13 @@ inner {
 }
 
 .row h3 {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .row h6 {
     color: var(--main-color);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -456,6 +497,7 @@ inner {
 }
 
 .contact {
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -463,9 +505,9 @@ inner {
 }
 
 .contact-text h4 {
-    margin: 15px 0;
+    margin: 22px 0;
     color: var(--main-color);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
 }
 
