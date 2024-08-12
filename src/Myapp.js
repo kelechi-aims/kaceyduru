@@ -21,6 +21,9 @@ import RootLayout from './Layouts/RootLayout';
 // style
 import './Myapp.css';
 
+// Define the basename for GitHub Pages
+const basename = "/kaceyduru";  // Make sure this matches the `homepage` in your package.json
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' Component={RootLayout}>
@@ -32,7 +35,7 @@ const router = createBrowserRouter(
       <Route path='projects' Component={Projects} />
       <Route path='contact' Component={Contact} />
     </Route>
-  )
+  ), { basename }
 )
 function Myapp()  {
   return (
