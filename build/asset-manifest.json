@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kaceyduru/static/css/main.546c30e6.css",
+    "main.js": "/kaceyduru/static/js/main.819b4c97.js",
+    "static/media/video1.mp4": "/kaceyduru/static/media/video1.e86494e44fa1f2dab322.mp4",
+    "static/media/experience.jpg": "/kaceyduru/static/media/experience.f13ad3903df0828a4f92.jpg",
+    "static/media/Accounting.png": "/kaceyduru/static/media/Accounting.5954355c274e679ec899.png",
+    "static/media/assistant.png": "/kaceyduru/static/media/assistant.f43d280f566e521e278d.png",
+    "static/media/profile.jpg": "/kaceyduru/static/media/profile.cd574d2e2e81ed765777.jpg",
+    "static/media/educator.png": "/kaceyduru/static/media/educator.9f657c20ea3c2bda2c30.png",
+    "static/media/c.png": "/kaceyduru/static/media/c.a1fa20c896d5624cf59b.png",
+    "static/media/html.png": "/kaceyduru/static/media/html.552d8d8b1befe18dd10f.png",
+    "static/media/JavaScript.png": "/kaceyduru/static/media/JavaScript.0ab4be8b3e7d20669b93.png",
+    "static/media/css.png": "/kaceyduru/static/media/css.2ab79bf023a87655a988.png",
+    "static/media/python.png": "/kaceyduru/static/media/python.c038d6e950c57ddc3d03.png",
+    "index.html": "/kaceyduru/index.html",
+    "static/media/typescript.svg": "/kaceyduru/static/media/typescript.2658a7ec79afe3732f6bff247d4a2ca3.svg",
+    "main.546c30e6.css.map": "/kaceyduru/static/css/main.546c30e6.css.map",
+    "main.819b4c97.js.map": "/kaceyduru/static/js/main.819b4c97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.546c30e6.css",
+    "static/js/main.819b4c97.js"
+  ]
+}
