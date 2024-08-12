@@ -640,6 +640,12 @@ inner {
         border-bottom: 1px solid transparent;
         transition: all .40s ease;
     }
+    .box {
+        grid-template-columns: 1fr;
+    }
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .tech-skills h2{
