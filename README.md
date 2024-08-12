@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Kacey's E-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my e-portfolio! This is a web application built using React to showcase my skills, projects, and experience as I embark on my journey to becoming a software engineer.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Contact](#contact)
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This e-portfolio serves as a personal website where I can display my projects, share information about myself, and provide contact details. The goal is to create a responsive and interactive platform that can evolve as I grow in my career.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Home Page:** A brief introduction and welcome message.
+- **About Me:** A section detailing my background.
+- **Experience:** A section detailing about my working experiences.
+- **Skills:** A section listing both my technical and soft skills.
+- **Achievements:** A section describing my achievements.
+- **Projects:** A showcase of my coding projects with descriptions, technologies used and links to their respective repositories.
+- **Contact:** Information on how to reach me, including email and social media links.
+- **Responsive Design:** The website is designed to be accessible and user-friendly on all devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **Frontend:** React.js, React Router
+- **Styling:** CSS
+- **Deployment:** GitHub Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have Node.js and npm installed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js: [Install Node.js](https://nodejs.org/)
+- npm: Comes with Node.js installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/yourusername/e-portfolio.git
+   ```
 
-## Learn More
+2. Navigate to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd kaceyduru
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install the dependencies
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Run the app
 
-### Analyzing the Bundle Size
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The app should now be running on `https://localhost:3000`.
 
-### Making a Progressive Web App
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Here's abrief overview of the project's folder structure
 
-### Advanced Configuration
+```java
+e-portfolio/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   └── Contact.js
+│   │   └── ...
+│   ├── Myapp.js
+│   ├── Myapp.css
+│   ├── index.js
+│   ├── index.css
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+```
+- `public/`: Contains the static files.
+- `src/`: Contains the source code, including the pages and styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+Feel free to reach out to me via email or connect with me on social media.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: kelechi.denise@gmail.com
+- LinkedIn: https://www.linkedin.com/in/kelechi-denise/
+- GitHub: https://github.com/kelechi-aims/
