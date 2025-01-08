@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kaceyduru/static/css/main.546c30e6.css",
-    "main.js": "/kaceyduru/static/js/main.a4479e9f.js",
+    "main.css": "/kaceyduru/static/css/main.b2df8157.css",
+    "main.js": "/kaceyduru/static/js/main.8fd7b1d5.js",
     "static/media/video1.mp4": "/kaceyduru/static/media/video1.e86494e44fa1f2dab322.mp4",
     "static/media/experience.jpg": "/kaceyduru/static/media/experience.f13ad3903df0828a4f92.jpg",
     "static/media/Accounting.png": "/kaceyduru/static/media/Accounting.5954355c274e679ec899.png",
@@ -15,11 +15,11 @@
     "static/media/python.png": "/kaceyduru/static/media/python.c038d6e950c57ddc3d03.png",
     "index.html": "/kaceyduru/index.html",
     "static/media/typescript.svg": "/kaceyduru/static/media/typescript.2658a7ec79afe3732f6bff247d4a2ca3.svg",
-    "main.546c30e6.css.map": "/kaceyduru/static/css/main.546c30e6.css.map",
-    "main.a4479e9f.js.map": "/kaceyduru/static/js/main.a4479e9f.js.map"
+    "main.b2df8157.css.map": "/kaceyduru/static/css/main.b2df8157.css.map",
+    "main.8fd7b1d5.js.map": "/kaceyduru/static/js/main.8fd7b1d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.546c30e6.css",
-    "static/js/main.a4479e9f.js"
+    "static/css/main.b2df8157.css",
+    "static/js/main.8fd7b1d5.js"
   ]
 }
