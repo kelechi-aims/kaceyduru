@@ -12,6 +12,31 @@ function Experience() {
       </div>
       <br />
       <div className="experience-content">
+      <div className="box">
+          <div>
+            <img src={experience} alt="worksforworks" />
+            <h3>Full-Stack Developer</h3>
+            <h4><span><strong>Company:</strong> Greenmouse (Internship)</span></h4>
+            <p><strong>Duration:</strong> 10/2024 – Present</p>
+            <br />
+          </div>
+          <div className="roles" id="roles">
+            <h3>Roles</h3>
+            <ul>
+            <li><p>Developed the server logic for a real-time voting application to test and demonstrate backend proficiency.</p></li>
+            <li><p>Designed and implemented the RESTful API architecture, including endpoints for user authentication, poll creation, and voting functionalities.</p></li>
+            <li><p>Built a responsive UI for the voting app using React and CSS, ensuring seamless user interaction.</p></li>
+            <li><p>Designed database schemas and integrated MySQL for data persistence, ensuring data consistency and security.</p></li>
+            <li><p>Debugged, optimized, and deployed the application, focusing on scalability and performance.</p></li>
+            <li><p>Contributed to a Fiverr Clone UI project, creating clean and reusable components using React and CSS.</p></li>
+            <li><p>Started work on a virtual card holder app, collaborating on frontend and backend features using Vite and Tailwind CSS.</p></li>
+            <li><p>Collaborated with team members on Git, managing code reviews and version control effectively.</p></li>
+          </ul>
+          <p><strong>Technologies Used:</strong>Node.js, Express, JavaScript, TypeScript, Java, SQL, NoSQL, Git, Git, Postman React, Vite, Tailwind CSS</p>
+          </div>
+        </div>
+
+        
         <div className="box">
           <div>
             <img src={experience} alt="worksforworks" />

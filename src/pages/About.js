@@ -20,23 +20,24 @@ function About() {
 
         <p>Hello! I'm Arukwe Kelechi Denise, and I'm from Nigeria.</p>
         <p>With a strong foundation in mathematics, I have earned both my BSc and MSc in the field. My academic journey has honed my analytical and problem-solving skills, which I now apply to my passion for software engineering.</p><br></br>
-        <p>Recently, I completed the ALX Software Engineering program, specializing in backend development. This intensive program equipped me with the technical skills and practical experience needed to excel in the world of software development.</p>
-        <p>I am enthusiastic about transitioning into a software development career, where I can leverage my skills to create innovative solutions.</p>
+        <p>I recently completed the ALX Software Engineering program, where I specialized in backend development. However, my journey as a developer extends beyond backend systems. With hands-on experience in frontend technologies such as HTML, CSS, JavaScript, React, Tailwind CSS, and Angular, I am equipped to handle both frontend and backend development. This comprehensive skill set allows me to build fully functional, responsive, and scalable web applications from start to finish.</p>
+        <p>I am passionate about working on end-to-end solutions, from designing intuitive user interfaces to developing robust server-side logic and database integrations. My goal is to leverage my diverse skill set to build innovative, efficient, and user-friendly applications.</p>
+        
       </div>
     </div>
 
     <div className="about-2" id="about-2">       
-      <p> I am particularly interested in opportunities such as internships or entry-level positions that will allow me to showcase my abilities and continue growing as a developer.</p>
+    <p>I am particularly interested in opportunities such as internships or entry-level positions where I can continue growing as a full-stack developer, tackling real-world problems and delivering impactful solutions.</p>
       
       <h3>Interests and Passions</h3>
 
       <ul className="a">
-        <li><p>Professional: Backend development, problem-solving, continuous learning, and continuous learning.</p></li>
+        <li><p>Professional: Full-stack development, problem-solving, continuous learning, and building scalable, user-friendly applications.</p></li>
         <li><p>Personal I enjoy exploring new technologies, solving puzzles, and contributing to open-source projects.</p></li>
       </ul> 
         
       <h3>Goals and Aspirations</h3>
-      <p>My goal is to become a proficient software engineer, capable of designing and implementing robust backend systems. I aspire to work on projects that challenge me and contribute positively to the tech community.</p>
+      <p>My goal is to become a proficient full-stack developer, capable of designing and implementing both frontend and backend systems. I aspire to work on projects that challenge me, deepen my understanding of full-stack development, and contribute positively to the tech community.</p>
 
       <h3>Fun Fact</h3>
       

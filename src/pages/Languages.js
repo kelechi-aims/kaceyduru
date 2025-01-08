@@ -5,6 +5,13 @@ import html from "./img/html.png";
 import c from "./img/c.png";
 import typescript from "./img/typescript.svg";
 import css from "./img/css.png";
+import reacter from "./img/reacter.png";
+import node from "./img/node.png";
+import angular from "./img/angular.png";
+import mongodb from "./img/mongodb.png"
+import mysgl from "./img/mysql.png";
+import ex from "./img/ex.png";
+
 
 function Languages() {
   return (
@@ -66,6 +73,70 @@ function Languages() {
               <h3>TypeScript</h3>
           </div>
         </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={reacter} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>React</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={css} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>Tailwind CSS</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={angular} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>Angular</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={node} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>Node.js</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={ex} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>Express</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={mysgl} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>MySQL</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="tech_img">
+              <img className="skill-icon" src={mongodb} alt="Typescript Programming Laguage" />
+              </div>
+              <h3>MongoDB</h3>
+          </div>
+        </div>
+
         
       </div>
       

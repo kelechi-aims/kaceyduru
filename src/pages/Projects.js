@@ -1,4 +1,6 @@
 import React from "react";
+import mobi from "./img/mobi.png";
+import fiverr from "./img/fiverr.png"
 
 const Projects = () => {
   return (
@@ -8,6 +10,46 @@ const Projects = () => {
       </div>
 
       <div className="portfolio-content">
+        <div className="row">
+          <a href="https://www.linkedin.com/in/kelechi-denise/" target="_blank" rel="noopener noreferrer">
+            <img src={mobi} alt="view"/>
+          </a>
+          <div className="main-row">
+            <div className="row-text"> 
+              <h6>Virtual Card Holder</h6> 
+            </div> 
+          </div> 
+          <p><strong>Description:</strong> Contributed to the development of a virtual card holder application. Focused on creating a user-friendly frontend interface with Vite and Tailwind CSS, and integrated backend functionality for card management and secure data handling.</p> 
+          <p><strong>Technologies Used:</strong> Vite, Tailwind CSS, Node.js, Express.js, MongoDB</p>
+        </div>
+
+        <div className="row">
+          <a href="https://www.linkedin.com/in/kelechi-denise/" target="_blank" rel="noopener noreferrer">
+            <img src={fiverr} alt="view"/>
+          </a>
+          <div className="main-row"> 
+            <div className="row-text"> 
+              <h6>Fiverr Clone</h6> 
+            </div> 
+          </div> 
+          <p><strong>Description:</strong> Built a Fiverr-inspired UI clone to replicate a marketplace experience. Developed reusable React components for an interactive and responsive user interface, ensuring cross-device compatibility.</p> 
+          <p><strong>Technologies Used:</strong> React.js, CSS, JavaScript</p>
+        </div>
+
+        <div className="row">
+          <a href="https://www.linkedin.com/in/kelechi-denise/" target="_blank" rel="noopener noreferrer">
+            <img src="img/profile.jpg" alt="view"/>
+          </a>
+          <div className="main-row"> 
+            <div className="row-text"> 
+              <h6>Voting App</h6> 
+            </div> 
+          </div> 
+          <p><strong>Description:</strong> Developed a real-time voting application as part of a team. Designed and implemented backend server logic, RESTful APIs, and secure user authentication. Integrated features for poll creation, voting, and real-time results updates using WebSockets.</p> 
+          <p><strong>Technologies Used:</strong> Node.js, Express.js, WebSocket, MongoDB, JavaScript, Tailwind CSS</p>
+        </div>
+
+
         <div className="row">
           <a href="https://www.linkedin.com/in/kelechi-denise/" target="_blank" rel="noopener noreferrer">
             <img src="img/profile.jpg" alt="view"/>
@@ -47,17 +89,6 @@ const Projects = () => {
         <p><strong>Technologies Used:</strong> C programming language, Unix system calls</p>
       </div>
 
-        <div className="row">
-          <a href="https://www.geeksforgeeks.org/forecast-weather-project-check-today-weather-for-any-location/" target="_blank" rel="noopener noreferrer">
-            <img src="img/profile.jpg" alt="view"/>
-          </a>
-          <div className="main-row">
-            <div className="row-text">
-              <h6>Machine Learning</h6>
-            </div>
-          </div>
-          <h3>Boston House Price Prediction</h3>
-        </div>
       </div>
     </section>
   );

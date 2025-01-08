@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "./img/profile.jpg";
 
 function Achievements() {
     return (
@@ -9,7 +10,21 @@ function Achievements() {
         <div className="portfolio-content">
 
             <div className="row">
-              <img src="img/profile.jpg" alt="software" />
+              <img src={profile} alt="salesperson" />
+              <div className="main-row">
+                <div className="row-text">
+                  <h6>Full-Stack Developer - Greenmouse(intern).</h6>
+                </div>
+              </div>
+              <h3>Developed server logic and RESTful APIs for a real-time voting app, ensuring seamless functionality.
+                Built reusable components for the Fiverr Clone UI, enhancing responsiveness and user experience.
+                Contributed to the virtual card holder app, implementing frontend and backend features using Vite and Tailwind CSS.
+                Demonstrated the ability to deliver scalable, maintainable full-stack solutions.
+              </h3>          
+            </div>
+
+            <div className="row">
+              <img src={profile} alt="software" />
               <div className="main-row">
                 <div className="row-text">
                     <h6>Software Engineering Portfolio Projects - Backend Developer</h6>
@@ -19,7 +34,7 @@ function Achievements() {
             </div>
 
             <div className="row">
-              <img src="img/profile.jpg" alt="salesperson" />
+              <img src={profile} alt="salesperson" />
               <div className="main-row">
                 <div className="row-text">
                   <h6>Accounting Clerk and Salesperson - Kacey Autos Signature.</h6>
@@ -29,7 +44,7 @@ function Achievements() {
             </div>
 
             <div className="row">
-              <img src="img/profile.jpg" alt="assistant" />
+              <img src={profile} alt="assistant" />
               <div className="main-row">
                 <div className="row-text">
                   <h6>Assistant (Cars45) - En & Jay Autos</h6>
@@ -39,7 +54,7 @@ function Achievements() {
             </div> 
 
             <div className="row">      
-              <img src="img/profile.jpg" alt="assistant" />
+              <img src={profile} alt="assistant" />
                 <div className="main-row">
                   <div className="row-text">
                     <h6>Educator - Imola International High School, Oshodi, Lagos State</h6>
@@ -49,7 +64,7 @@ function Achievements() {
               </div> 
 
             <div className="row">  
-              <img src="img/profile.jpg" alt="assistant" />
+              <img src={profile} alt="assistant" />
                 <div className="main-row">
                   <div className="row-text">
                     <h6>Educator - Oluwaseun Comprehensive High School, Ore, Ondo</h6>

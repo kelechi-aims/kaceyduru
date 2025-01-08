@@ -15,7 +15,7 @@ function Skills() {
             <img src={technical} alt="skill1" />  
               <ul>
                 <li><strong>Programming Languages:</strong> C, Python, JavaScript, TypeScript</li>
-                <li><strong>Web Development:</strong> HTML, CSS, React</li>
+                <li><strong>Web Development:</strong> HTML, CSS, React, Vite, Angular</li>
                 <li><strong>Database Management:</strong> MySQL, MongoDB</li>
                 <li><strong>Software Development Methodologies:</strong> Agile, Waterfall</li>
                 <li><strong>Version Control:</strong> Git & GitHub</li>
